@@ -1,0 +1,153 @@
+@font-face{
+    font-family: Buba ;
+src: url(ofont.ru_Buba.ttf);
+}
+    
+.header {
+width:100%;
+color:rgb(249, 249, 250);
+padding: 20px;
+font-family: Buba ;
+src: url(ofont.ru_Buba.ttf);
+background: burlywood;
+}
+
+
+.menu-item{
+    width:100%;
+    padding: 20px;
+    color: white;
+    background: burlywood;
+    background-size: 100%;
+ }
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(250, 247, 247);
+    font-family: Buba;
+    src: url(ofont.ru_Buba.ttf);
+}
+
+.menu-link{
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+.menu-imp{
+    color: blueviolet;
+    color: ;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Buba;
+    src: url(ofont.ru_Buba.ttf);
+
+}
+.стрелка{
+    color: blueviolet;
+
+}
+.container{
+    max-width: 1140px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.menu{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-img{
+    margin-right: 20px;
+}
+.banner-tittle, .banner-description{
+    text-align:center;
+    color:blueviolet;
+    size: 50px;
+
+}
+.banner-tittle{
+    font-size: 48px;
+    font-family: Buba;
+    src: url(ofont.ru_Buba.ttf);
+}
+.banner-section{
+    padding: 100px 0;
+    background: url(собаки1.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+.banner-tittle{
+    color:blueviolet;
+    margin-left: 100px;
+   
+}
+
+.cards-section{
+padding: 50px 0px;
+}
+.cards-tittle{
+    color: blueviolet;
+    text-align: center;
+    font-family: Buba;
+    src: url(ofont.ru_Buba.ttf);
+}
+.cards-description{
+    color: burlywood;
+    size: 50px;
+    padding-left: 100px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 40px 0px burlywood;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.card-link{ 
+    text-decoration: none;
+    color: black;
+}
+.cards-bottom{
+    text-align: center;
+    background: blueviolet;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+.cards-tittle .cards-text{
+    margin-bottom: 10px;
+}
+.footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    text-align: right;
+
+}
+.footer-banner{
+     padding: 100px 0;
+    background: url(собаки2.jpg);
+    background-size: 100%;
+    background-position: center;
+    }
+
